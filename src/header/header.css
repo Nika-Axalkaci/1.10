@@ -1,0 +1,29 @@
+.logo-div {
+  width: 6em;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 3em;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  font-size: 2em;
+  border-bottom: 2px solid black;
+}
+.about-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 3em;
+}
